@@ -1,6 +1,5 @@
 import moxios from 'moxios';
 import { getSecretWord } from './hookActions';
-import { isTSAnyKeyword } from '@babel/types';
 
 describe('moxios tests', () => {
   beforeEach(() => {
